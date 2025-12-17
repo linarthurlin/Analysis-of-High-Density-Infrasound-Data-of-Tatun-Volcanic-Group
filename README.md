@@ -10,6 +10,11 @@ This project analyzes high-density infrasound data collected from the Tatun Volc
 
 > **Note**: Raw data and result images are not included in this repository due to data privacy restrictions and large file sizes. Please refer to the project poster (Chinese) ([大屯火山群高密度次聲波資料分析_林奕丞_期末海報.pdf](報告/大屯火山群高密度次聲波資料分析_林奕丞_期末海報.pdf)) for visualizations and analysis results.
 
+## Result Visualization
+
+![Clustering Analysis Result](Result_plot.png)
+*Figure: K-means clustering results showing temporal patterns in band power analysis across multiple infrasound sensors.*
+
 ## Analysis Pipeline
 
 The analysis workflow consists of band power and K-Means/DBSCAN implementations (my primary work):
@@ -44,7 +49,6 @@ Advanced band power analysis with comprehensive visualization:
 - Handles missing data with NaN interpolation
 - Computes band power across entire dataset
 - Peak/valley detection for temporal pattern identification
-- Exports results in both CSV and NPY formats
 
 **Key Functions**:
 ```python

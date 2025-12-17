@@ -32,6 +32,9 @@ plot_old/
 *.jpg
 *.jpeg
 
+# Exception: Allow specific result images for README
+!Result_plot.png
+
 # Documentation (keep poster, exclude others)
 docs/
 
