@@ -1,15 +1,12 @@
+# Entire Infrasound subdirectory (duplicate/backup files)
+Infrasound/
+
 # Data directories (proprietary data, not for public upload)
 db/
 band_power/
 mseed_plot/
 plot_new/
 plot_old/
-Infrasound/3600/
-Infrasound/4/
-Infrasound/g/
-Infrasound/SYK/
-Infrasound/YD/
-Infrasound/__pycache__/
 報告/期中資料/
 
 # Preprocessing scripts (not my work - files 1-5)
@@ -24,33 +21,6 @@ Infrasound/__pycache__/
 5_frequency_clustering.py
 5b_plot_images_for_experts.py
 5c_copy_clustering_images.py
-
-# Duplicate/backup files
-Infrasound/1_transformate_mseed_to_pickle.py
-Infrasound/1b_plot_mseed.py
-Infrasound/2_split_and_fft.py
-Infrasound/2b_plot_th_and_fft.py
-Infrasound/2b_test.py
-Infrasound/3_get_base.py
-Infrasound/4_get_peaks.py
-Infrasound/4b_plot_peaks.py
-Infrasound/5_frequency_clustering.py
-Infrasound/5b_plot_images_for_experts.py
-Infrasound/5c_copy_clustering_images.py
-Infrasound/6_band_power.py
-Infrasound/6b_band_power.py
-Infrasound/6c_band_power.py
-Infrasound/6c_psd.py
-Infrasound/6d_.py
-Infrasound/7_clustering.py
-Infrasound/7_selectplot.py
-Infrasound/7b_clustering.py
-Infrasound/8_split.py
-Infrasound/common.py
-Infrasound/job.sh
-Infrasound/np.py
-Infrasound/output.csv
-Infrasound/mseed_record_info.py
 
 # Subdirectory with job scripts
 2_split_and_fft/
