@@ -301,6 +301,4 @@ Lin Yi-Cheng (林奕丞), [National Center for Research on Earthquake Engineerin
 
 Note: Raw infrasound data is proprietary and not included in this repository due to data sharing restrictions.
 
----
-
 **Acknowledgments**: This analysis was conducted as part of volcanic monitoring research for the Tatun Volcano Group in northern Taiwan.
